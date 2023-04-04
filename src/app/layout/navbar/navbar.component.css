@@ -1,0 +1,14 @@
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.nav-item{
+    width: 11vw;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+.active{
+    color: #fff !important;
+}   
