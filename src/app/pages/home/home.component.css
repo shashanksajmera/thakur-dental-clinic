@@ -1,0 +1,10 @@
+.opening-image{
+    position: relative;
+    width: 100%;
+}
+ .bg-image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ }
