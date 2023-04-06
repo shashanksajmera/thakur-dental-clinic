@@ -1,0 +1,41 @@
+.about{
+    border: 5px solid white;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    transition: height 2s;
+}
+
+.about-heading{
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+}
+.content{
+    color: white;
+    font-size: 1.5em;
+}
+
+.toggler{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #5F7E50;
+    margin-top: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 5px; */
+    border: 0;
+    width: 10vw;
+    height: 2vw;
+    border-radius: 1vw;
+}

@@ -11,6 +11,8 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
 import { MoreComponent } from './pages/more/more.component';
 import { PatientEducationComponent } from './pages/patient-education/patient-education.component';
 import { ChatWithUsComponent } from './layout/chat-with-us/chat-with-us.component';
+import { AboutComponent } from './pages/home/about/about.component';
+import { WhyComponent } from './pages/home/why/why.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ChatWithUsComponent } from './layout/chat-with-us/chat-with-us.componen
     TestimonialsComponent,
     MoreComponent,
     PatientEducationComponent,
-    ChatWithUsComponent
+    ChatWithUsComponent,
+    AboutComponent,
+    WhyComponent
   ],
   imports: [
     BrowserModule,

@@ -8,3 +8,34 @@
   margin-right: auto;
   width: 100%;
  }
+
+ [class *= opening-title-]{
+    font-family: "Playfair Display";
+    /* width: 100%; */
+    position: absolute;
+    /* top: 30%; */
+    left: 50%;
+    font-size: 550%;
+    transform: translate(-50%, -50%);
+    /* text-align: center; */
+ }
+ .opening-title-1{
+    top: 26%;
+ }
+ .opening-title-2{
+    top: 37%;
+ }
+ .opening-title-3{
+    top: 48%;
+ }
+
+ .opening-text{
+    font-family: "Playfair Display";
+    /* width: 100%; */
+    font-style: italic;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 150%;
+    transform: translate(-50%, -50%);
+ }
