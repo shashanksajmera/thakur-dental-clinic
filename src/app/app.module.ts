@@ -13,6 +13,7 @@ import { PatientEducationComponent } from './pages/patient-education/patient-edu
 import { ChatWithUsComponent } from './layout/chat-with-us/chat-with-us.component';
 import { AboutComponent } from './pages/home/about/about.component';
 import { WhyComponent } from './pages/home/why/why.component';
+import { WhyCardComponent } from './pages/home/why/why-card/why-card.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { WhyComponent } from './pages/home/why/why.component';
     PatientEducationComponent,
     ChatWithUsComponent,
     AboutComponent,
-    WhyComponent
+    WhyComponent,
+    WhyCardComponent
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,7 @@ import { Component,ElementRef,OnInit, ViewChild } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
-  @ViewChild('readmore') readmorebut?:ElementRef = undefined;
+  // @ViewChild('readmore') readmorebut?:ElementRef = undefined;
 
   readMore:boolean = false;
 

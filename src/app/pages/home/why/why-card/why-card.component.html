@@ -1,0 +1,7 @@
+<div class="why-card">
+    <div class='card-title'>{{title}}</div>
+    <div [ngClass]="isReadMore? 'card-content' : 'dot'" class="">{{isReadMore? content : "..."}}</div>
+    <button class='readmore-button' (click)="onClick()">
+        {{!isReadMore ? "Read More": "Read Less"}}
+    </button>
+</div>

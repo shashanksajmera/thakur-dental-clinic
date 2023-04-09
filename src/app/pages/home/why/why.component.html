@@ -1,33 +1,13 @@
 <div>
     <div class="mx-auto why-heading">Why Our Clinic</div>
-    <div class="why-cards">
-        <div class="d-flex justify-content-around">
-            <div class="why-card">
-                <div class='card-title'>{{why_cards[0].title}}</div>
-                <div class='readmore-button'>
-                    <a class = 'link'>Read More</a>
-                </div>
-            </div>
-            <div class="why-card">
-                <div class='card-title'>{{why_cards[1].title}}</div>
-                <div class='readmore-button'>
-                    <a class = 'link'>Read More</a>
-                </div>
-            </div>
+    <div class="why-cards d-flex justify-content-around">
+        <div class="d-flex flex-column">
+            <app-why-card title="{{why_cards[0].title}}" content="{{why_cards[0].content}}"></app-why-card>
+            <app-why-card title="{{why_cards[1].title}}" content="{{why_cards[1].content}}"></app-why-card>
         </div>
-        <div class="d-flex justify-content-around">
-            <div class="why-card">
-                <div class='card-title'>{{why_cards[2].title}}</div>
-                <div class='readmore-button'>
-                    <a class = 'link'>Read More</a>
-                </div>
-            </div>
-            <div class="why-card">
-                <div class='card-title'>{{why_cards[3].title}}</div>
-                <div class='readmore-button'>
-                    <a class = 'link'>Read More</a>
-                </div>
-            </div>
+        <div class="d-flex flex-column">
+            <app-why-card title="{{why_cards[2].title}}" content="{{why_cards[2].content}}"></app-why-card>
+            <app-why-card title="{{why_cards[3].title}}" content="{{why_cards[3].content}}"></app-why-card>
         </div>
     </div>
 </div>
