@@ -1,3 +1,11 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color:#5F7E50;
+    width: 100%;
+    transition: top 0.3s;
+}
 .navbar-brand{
     font-size: 150%;
     color: #FFF;
@@ -15,3 +23,18 @@
 .active{
     color: #fff !important;
 }   
+
+.dropdown-menu{
+    background-color: #5F7E50;
+    transform: translate(-25%,0);
+    text-align: center;
+}
+.dropdown:hover .dropdown-menu{
+    /* display: block; */
+    margin-top: 0;
+}
+
+.dropdown-item:hover .dropdown-item{
+    cursor: pointer;
+    background-color: #5F7E50;
+}

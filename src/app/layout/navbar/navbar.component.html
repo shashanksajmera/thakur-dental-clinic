@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" (scroll)="onScroll($event)">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Thakur Dental Clinic</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,8 +12,19 @@
           <li class="nav-item">
             <a class='nav-link' routerLink="/meet-the-team" routerLinkActive="active" ariaCurrentWhenActive="page">Meet the Team</a>
           </li>
-          <li class="nav-item">
-            <a class='nav-link' routerLink="/services" routerLinkActive="active" ariaCurrentWhenActive="page">Services</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class = "dropdown-menu">
+              <li ><a class =" nav-link dropdown-item"  [routerLink] ="['/services','dental-implants']" ariaCurrentWhenActive="page">Dental Implants</a></li>
+              <li ><a class =" nav-link dropdown-item"   [routerLink] ="['/services','aesthetic-dentistry']">Aesthetic Dentistry</a></li>
+              <li ><a class =" nav-link dropdown-item"   [routerLink] ="['/services','root-canal-treatment']">Root Canal Treatment</a></li>
+              <li ><a class =" nav-link dropdown-item"   [routerLink] ="['/services','crowns-bridges-dentures']">Crowns, Bridges and Dentures</a></li>
+              <li ><a class =" nav-link dropdown-item"   [routerLink] ="['/services','dentistry-for-kids']">Dentistry for Kids</a></li>
+              <li ><a class =" nav-link dropdown-item"   [routerLink] ="['/services','braces-and-aligners']">Braces and Aligners</a></li>
+              <li ><a class =" nav-link dropdown-item"   [routerLink] ="['/services','wisdom-tooth-extraction']">Wisdom Tooth Extraction</a></li>
+              <li ><a class =" nav-link dropdown-item"   [routerLink] ="['/services','oral-surgery']">Oral Surgery</a></li>
+              
+            </ul>
           </li><li class="nav-item">
             <a class='nav-link'routerLink="/testimonials" routerLinkActive="active" ariaCurrentWhenActive="page">Testimonials</a>
           </li><li class="nav-item">

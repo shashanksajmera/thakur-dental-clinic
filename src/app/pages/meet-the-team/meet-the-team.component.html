@@ -1,1 +1,11 @@
-<p>meet-the-team works!</p>
+<div class="mtt-title mx-auto">Meet the Team</div>
+<div class="mtt-cards">
+    <div class="mtt-card" *ngFor = "let member of team">
+        <div class = 'member-pic'><img class="image" [src]= "member['pic']"></div>
+        <div class = 'member-details'>
+            <span class="name">{{member['name']}}</span>
+            <span class = 'degree'>&nbsp;{{member['degree']}}</span>
+            <div class="intro">{{member.details}}</div>
+        </div>
+    </div>
+</div>

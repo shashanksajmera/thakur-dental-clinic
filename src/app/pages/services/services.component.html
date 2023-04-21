@@ -1,1 +1,8 @@
-<p>services works!</p>
+<div class="service-title">Services</div>
+<div class="service-cards d-flex flex-wrap justify-content-evenly">
+    <div class="service-card " *ngFor="let service of services">
+        <div class="card-title">{{service.service}}</div>
+        <div><img class="card-image" [src]="service.imgSrc"></div>
+        <a [routerLink]="['/services',service.route]" class="button">Learn More</a>
+    </div>
+</div>

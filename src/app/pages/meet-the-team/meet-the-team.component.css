@@ -1,0 +1,43 @@
+.mtt-title{
+    font-size: 3em;
+    /* font-family: 'Monesserat'; */
+    font-weight: 500;
+    color: white;
+    width: fit-content;
+    /* text-decoration: underline; */
+    margin-top: 4vw;
+
+}
+.mtt-card{
+    width: 60vw;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2vw;
+}
+.image{
+    width: 15vw;
+    height: 10vw;
+}
+
+.member-details{
+    background-color: #a6c893;
+    border-radius: 10px;
+    margin-left: 1vw;
+    padding: 1vw;
+    color: #20312e;
+    white-space: pre-line;
+}
+
+.name{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.degree{
+    font-size: 0.9vw;
+}
+
+.intro{
+    font-size: 1.2vw;
+}

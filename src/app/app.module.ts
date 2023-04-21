@@ -14,6 +14,8 @@ import { ChatWithUsComponent } from './layout/chat-with-us/chat-with-us.componen
 import { AboutComponent } from './pages/home/about/about.component';
 import { WhyComponent } from './pages/home/why/why.component';
 import { WhyCardComponent } from './pages/home/why/why-card/why-card.component';
+import { ServiceComponent } from './pages/services/service/service.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { WhyCardComponent } from './pages/home/why/why-card/why-card.component';
     ChatWithUsComponent,
     AboutComponent,
     WhyComponent,
-    WhyCardComponent
+    WhyCardComponent,
+    ServiceComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
