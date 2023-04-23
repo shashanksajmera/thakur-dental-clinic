@@ -59,3 +59,16 @@
     color: #5F7E50;
     text-decoration: none;
 }
+
+@media screen and (max-width : 430px) {
+    .why-heading {
+        font-size: 2em;
+        /* font-family: 'Monesserat'; */
+        font-weight: 500;
+        color: white;
+        width: fit-content;
+        /* text-decoration: underline; */
+        margin-top: 5vw;
+    
+    }
+}

@@ -39,3 +39,46 @@
     height: 2vw;
     border-radius: 1vw;
 }
+
+@media screen and (max-width: 430px) {
+    .about-heading{
+        margin-top: 5vw;
+        margin-bottom: 1vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        font-size: 2em;
+        font-weight: 500;
+        color: white;
+    }
+    .content{
+        color: white;
+        font-size: 1em;
+    }
+    .toggler{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: #5F7E50;
+        margin-top: 1vw;
+        margin-left: auto;
+        margin-right: auto;
+        /* padding: 5px; */
+        font-size: 0.75em;
+        border: 0;
+        width: 30vw;
+        height: 6vw;
+        border-radius: 3vw;
+    }
+    .about{
+        border: 1vw solid white;
+        border-radius: 1vw;
+        padding: 2vw;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        height: fit-content;
+        transition: height 2s;
+    }
+}

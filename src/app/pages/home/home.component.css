@@ -2,15 +2,19 @@
     position: relative;
     width: 100%;
     margin-top: 4vw;
+   
 }
  .bg-image{
     display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);;
  }
 
  [class *= opening-title-]{
+   z-index: 1;
     font-family: "Playfair Display";
     /* width: 100%; */
     position: absolute;
@@ -39,4 +43,43 @@
     left: 50%;
     font-size: 150%;
     transform: translate(-50%, -50%);
+ }
+
+ @media screen and (max-width: 430px) {
+   .opening-image{
+      margin-top: 17vw;
+  }
+  .bg-image{
+ filter: blur(1px);
+ -webkit-filter: blur(1px);;
+}
+  [class *= opening-title-]{
+   font-family: "Playfair Display";
+   /* width: 100%; */
+   position: absolute;
+   /* top: 30%; */
+   left: 50%;
+   font-size: 250%;
+   transform: translate(-50%, -50%);
+   /* text-align: center; */
+}
+.opening-title-1{
+   top: 26%;
+}
+.opening-title-2{
+   top: 45%;
+}
+.opening-title-3{
+   top: 64%;
+}
+.opening-text{
+   font-family: "Playfair Display";
+   /* width: 100%; */
+   font-style: italic;
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   font-size: 75%;
+   transform: translate(-50%, -50%);
+}
  }
