@@ -41,3 +41,51 @@
 .intro{
     font-size: 1.2vw;
 }
+
+@media screen and (max-width : 430px){
+    .mtt-title{
+        font-size: 2em;
+        margin-top: 14vw;
+    
+    }
+    .mtt-card{
+        width: 90vw;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 4vw;
+    }
+    .image{
+        width: 25vw;
+        height: 16vw;
+    }
+    .member-details{
+        background-color: #a6c893;
+        border-radius: 5px;
+        margin-left: 2vw;
+        padding: 1vw 2vw;
+        color: #20312e;
+        white-space: pre-line;
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        /* display: inline; */
+        /* padding: 2vw; */
+        margin: 0;
+        font-size: 0.8em;
+        font-weight: 500;
+        /* line-height: 2vw; */
+        /* height: 2vw; */
+    }
+    
+    .degree{
+        display: block;
+        font-size: 0.4em;
+    }
+    
+    .intro{
+        margin-top: 1vw;
+        font-size: 0.5em
+    }
+}

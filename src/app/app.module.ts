@@ -16,6 +16,7 @@ import { WhyComponent } from './pages/home/why/why.component';
 import { WhyCardComponent } from './pages/home/why/why-card/why-card.component';
 import { ServiceComponent } from './pages/services/service/service.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     WhyCardComponent,
     ServiceComponent,
     PageNotFoundComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

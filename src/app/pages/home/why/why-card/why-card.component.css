@@ -96,7 +96,8 @@
     }
     .card-content{
         text-align: center;
-        margin-top: 0.5vw;
+        margin: 0.5vw 2vw 0;
         font-size: 1em;
+        
     }
 }

@@ -1,0 +1,55 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vw;
+    flex-wrap: wrap-reverse;
+}
+
+.contact-info{
+    color: white;
+    font-size: 1em;
+}
+
+.map{
+    width: 30vw;
+    height: 15vw;
+}
+.contact-us{
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+}
+
+@media screen and (max-width: 430px){
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 6vw;
+        flex-wrap: wrap-reverse;
+    }
+    .map{
+        width: 90vw;
+        height: 45vw;
+    }
+    .contact-info{
+        color: white;
+        font-size: 0.75em;
+    }
+    .contact-us{
+        margin-top: 5vw;
+        margin-bottom: -1vw;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        font-size: 2em;
+        font-weight: 500;
+        color: white;
+    }
+}

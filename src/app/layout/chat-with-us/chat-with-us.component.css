@@ -24,3 +24,19 @@
     color: #fff;
     text-decoration: none;
 }
+
+@media screen and (max-width: 430px){
+    .chat-button{
+        transition: bottom 0.3s;
+        right: 7%;
+        border-radius: 3.37vw;
+        text-align: center;
+        width: 27vw;
+        height: 6.75vw;
+        /* margin: auto; */
+        /* padding: 0.35vw 1vw 0.4vw 1vw; */
+        color: #fff;
+        border: 0;
+        background-color: rgb(32, 49, 46);
+    }
+}

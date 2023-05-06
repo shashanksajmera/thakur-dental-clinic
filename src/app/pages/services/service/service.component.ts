@@ -31,7 +31,9 @@ export class ServiceComponent implements OnInit{
      case 'wisdom-tooth-extraction':this.service = this.services.wisdom;break;
      case 'oral-surgery':this.service = this.services.oral_surgery;break;
     }
-    this.youtubeUrl = this.santizer.bypassSecurityTrustResourceUrl("https://youtube.com/embed/" + this.service!.youtube)
-    
+    this.youtubeUrl =  this.service?.youtube == undefined ? undefined : this.santizer.bypassSecurityTrustResourceUrl("https://youtube.com/embed/" + this.service!.youtube + '?modestbranding=1&rel=0&autoplay=1&mute=1&showinfo=0')
+    console.log(this.youtubeUrl)
   }
 }
+
+// <iframe width="768" height="359" src="https://www.youtube.com/embed/KaBMBtgo8so" title="Dental Implant Procedure #dental #dentist #implant #animation #Shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe

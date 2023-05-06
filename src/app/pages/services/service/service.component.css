@@ -4,7 +4,7 @@
     color: white;
     font-weight: 500;
     margin-bottom: 3vw;
-    margin-top: 3vw;
+    margin-top: 4vw;
 }
 .video-div{
     width: fit-content;
@@ -20,4 +20,24 @@
     margin-right: auto;
     color: white;
     font-size: 1.5em;
+}
+
+@media screen and (max-width : 430px) {
+    .service-title{
+        text-align: center;
+        font-size: 1.5em;
+        margin-top: 14vw;
+    }
+    .video{
+        width: 90vw;
+        height: 30vh;
+    }
+    .service-content{
+        width: 90%;
+        margin-top: 2vw;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-size: 0.9em;
+    }
 }

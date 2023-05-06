@@ -1,4 +1,4 @@
 <div class="service-title mx-auto">{{service!.service}}</div>
-<div class=" video-div mx-auto"> <iframe class="video mx-auto" [src]="youtubeUrl">
+<div *ngIf="youtubeUrl != undefined" class=" video-div mx-auto"> <iframe class="video mx-auto" [src]="youtubeUrl">
     </iframe></div>
 <div class="service-content" *ngFor="let block of service!.content">{{block}}<br></div>

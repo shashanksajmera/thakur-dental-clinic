@@ -3,8 +3,8 @@
     <div class="mtt-card" *ngFor = "let member of team">
         <div class = 'member-pic'><img class="image" [src]= "member['pic']"></div>
         <div class = 'member-details'>
-            <span class="name">{{member['name']}}</span>
-            <span class = 'degree'>&nbsp;{{member['degree']}}</span>
+            <span class="name">{{member['name']}}&nbsp;</span>
+            <span class = 'degree'>{{member['degree']}}</span>
             <div class="intro">{{member.details}}</div>
         </div>
     </div>
