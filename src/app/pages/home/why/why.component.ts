@@ -17,4 +17,8 @@ export class WhyComponent {
   title:'Visible Results and Radiant Smiles',content:"We, at Thakur dental clinic, focus  on Quality of our treatment and maintaining good patient relations.\n'Word of Mouth' and Personal relations, along with referrals from other dentists in India and Internationally, is what makes our practice reliable. We provide the highest quality of services at an affordable price range, thus giving access to excellent dental care to everybody."
 },];
   why_card = 'card2';
+
+  constructor(){
+    console.log(navigator.userAgent);
+  }
 }
