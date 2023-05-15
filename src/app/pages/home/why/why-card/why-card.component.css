@@ -21,7 +21,7 @@
 }
 
 .readmore-button {
-    position: relative;
+    position:relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -76,7 +76,6 @@
         font-size: 2em;
     }
     .readmore-button {
-        position: relative;
         display: flex;
         flex-direction: row;
         justify-content: center;
