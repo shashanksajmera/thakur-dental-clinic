@@ -5,4 +5,5 @@ export class Service{
     youtube?:string | undefined;
     content:string[] = [''];
     extraimages? : string[] | undefined;
+    heading?:string;
 }

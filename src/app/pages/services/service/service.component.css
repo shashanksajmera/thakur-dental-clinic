@@ -22,6 +22,27 @@
     font-size: 1.5em;
 }
 
+.extraimages{
+    width: 70%;
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.extraimage{
+    width: 25vw;
+    margin-bottom: 2vw;
+}
+.heading{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 2em;
+}
+
 @media screen and (max-width : 430px) {
     .service-title{
         text-align: center;
