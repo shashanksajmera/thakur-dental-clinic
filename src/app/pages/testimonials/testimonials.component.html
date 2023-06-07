@@ -1,1 +1,8 @@
-<p>testimonials works!</p>
+<div class="testimonials-title">Testimonials</div>
+<div class="testimonials">
+    <div class="testimonial" *ngFor="let testimonial of testimonials">
+        <div class="test-video"></div>
+        <div class="experience">{{testimonial.experience}}</div>
+        <div class="name">- {{testimonial.name}} ({{testimonial.date}})</div>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+.testimonials-title {
+    font-size: 3em;
+    /* font-family: 'Monesserat'; */
+    font-weight: 500;
+    color: white;
+    width: fit-content;
+    /* text-decoration: underline; */
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    width: 70vw;
+    margin: 2vw auto;
+}
+
+.testimonial{
+    width: 70vw;
+    background-color: #a6c893;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    border-radius: 10px;
+}
+
+.experience{
+    font-size: 1em;
+    color: #20312e;
+    font-weight: 400;
+}
+.name{
+    text-align: right;
+    color: #20312e;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+
+
+@media screen and (max-width : 430px){
+    .testimonials-title {
+        font-size: 2em;
+        /* font-family: 'Monesserat'; */
+        font-weight: 500;
+        color: white;
+        width: fit-content;
+        /* text-decoration: underline; */
+        margin-top: 20vw;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+    
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        width: 90vw;
+        margin: 2vw auto;
+    }
+    
+    .testimonial{
+        width: 90vw;
+        background-color: #a6c893;
+        margin-bottom: 5vw;
+        padding: 3vw;
+        border-radius: 10px;
+    }
+    
+    .experience{
+        font-size: 1em;
+        color: #20312e;
+        font-weight: 400;
+    }
+    .name{
+        text-align: right;
+        color: #20312e;
+        font-size: 1em;
+        font-weight: 500;
+    }
+}
